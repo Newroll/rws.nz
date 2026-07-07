@@ -4,20 +4,44 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="color-scheme" content="light dark" />
+    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="css/pico.min.css" />
     <title>RWS Directory</title>
   </head>
   <body>
     <main class="container">
+      <h1>RWS Directory</h1>
+      <hr>
+      <h3>HLB</h3>
       <div class="grid">
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
-        <div>5</div>
-        <div>6</div>
-        <div>7</div>
+        <button onclick="window.open('http://10.0.0.137:8085/#/pc/recent');" data-tooltip="10.0.0.137:8085">BOOX Drop</button>
+        <button onclick="window.open('https://unifi.home.arpa/network/default/dashboard');" data-tooltip="unifi.home.arpa">UniFi Network</button>
+        <button onclick="window.open('https://unas.home.arpa/');" data-tooltip="unas.home.arpa">UniFi Drive</button>
+        <button onclick="window.open('http://nanokvm.home.arpa/');" data-tooltip="nanokvm.home.arpa">NanoKVM</button>
+        <button onclick="window.open('http://waxgourd.home.arpa:8124');" data-tooltip="waxgourd.home.arpa:8124">WaxGourd</button>
+        <button onclick="window.open('http://rpi.home.arpa:8889');" data-tooltip="rpi.home.arpa:8889">RPI Cam</button>
       </div>
+      <br></br>
+      <div class="grid">
+        <button onclick="window.open('http://homeserver.home.arpa:9090');" data-tooltip="homeserver.home.arpa:9090">Cockpit</button>
+        <button onclick="window.open('http://homeserver.home.arpa:9091');" data-tooltip="homeserver.home.arpa:9091">Transmission</button>
+        <button onclick="window.open('http://homeserver.home.arpa:8754');" data-tooltip="homeserver.home.arpa:8754">FlightRadar24</button>
+      </div>
+      <br></br>
+      <h3>AKL</h3>
+      <div class="grid">
+        <button onclick="window.open('https://ha.akl.rws.nz/');" data-tooltip="ha.akl.rws.nz">Home Assistant</button>
+        <button onclick="window.open('https://immich.akl.rws.nz/');" data-tooltip="immich.akl.rws.nz">Immich</button>
+        <button onclick="window.open('https://nc.akl.rws.nz/');" data-tooltip="nc.akl.rws.nz">NextCloud</button>
+      </div>
+      <br></br>
+      <h3>SYD</h3>
+      <div class="grid">
+        <button onclick="window.open('https://treeburn.syd.rws.nz/');" data-tooltip="treeburn.syd.rws.nz">Treeburn</button>
+        <button onclick="window.open('https://wow.syd.rws.nz/');" data-tooltip="wow.syd.rws.nz">Waves of Waste</button>
+      </div>
+      <hr>
+      <img src="assets/rws-logo.png" class="rws-logo">
     </main>
   </body>
 </html>
